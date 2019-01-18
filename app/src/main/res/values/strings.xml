@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Reversi</string>
+    <string name="black_s_score">Black\'s score:</string>
+    <string name="white_s_score">White\'s score:</string>
+    <string name="turn">Turn:</string>
+    <string name="black_s_turn">black</string>
+    <string name="white_s_turn">white</string>
+    <string name="b_counter">2</string>
+    <string name="w_score">2</string>
+    <string name="b_win_message">Black side wins!</string>
+    <string name="w_win_message">White side wins!</string>
+    <string name="no_move_message">No move possible, switch to the other side.</string>
+    <string name="back"><![CDATA[Back ->]]></string>
+    <string name="titlemenu">TODO</string>
+    <string name="startmenu">TODO</string>
+    <string name="aboutmenu">TODO</string>
+    <string name="optionsmenu">TODO</string>
+    <string name="rulestext"><font color='#000000'>This application was created to pass the course project on the discipline "Mobile applications".
+        This application implemented a game called "Reversi".</font>\n
+        \n<font color='#c60d0d'>Basic Rules:</font>\n
+        <font color='#000000'>Each reversi piece has a black side and a white side. On your turn, you place one piece on the board with your color facing up.
+        You must place the piece so that an opponent\'s piece, or a row of opponent\'s pieces, is flanked by your pieces.
+            All of the opponent\'s pieces between your pieces are then turned over to become your color.</font>\n
+        \n<font color='#c60d0d'>Aim of the game:</font>\n
+        <font color='#000000'>The object of the game is to own more pieces than your opponent when the game is over. The game is over when neither player has a move.
+            Usually, this means the board is full.</font>\n
+        \n<font color='#c60d0d'>Start of the game:</font>\n
+        <font color='#000000'>The game is started in the position shown below on a reversi board consisting of 64 squares in an 8x8 grid.</font>\n
+        \n<font color='#c60d0d'>End of the game:</font>\n
+        <font color='#000000'>The game ends when one player wins, by making his color dominant on the board.</font>
+    </string>
+    <string name="chooseText">APPLICATION WALLPAPER</string>
+    <string name="wallp1">TODO</string>
+    <string name="wallp2">TODO</string>
+    <string name="wallp3">TODO</string>
+</resources>
