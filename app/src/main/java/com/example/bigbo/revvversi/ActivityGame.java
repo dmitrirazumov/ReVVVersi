@@ -60,11 +60,11 @@ public class ActivityGame extends AppCompatActivity{
             getWindow().setBackgroundDrawableResource(R.drawable.anothertruepicture);
         if (ActivityOptions.WALL3) getWindow().setBackgroundDrawableResource(R.drawable.withoutja);
 
-        tablelayout = (TableLayout) findViewById(R.id.main_l);
-        b_counter = (TextView) findViewById(R.id.textView4);
-        w_counter = (TextView) findViewById(R.id.textView5);
-        turn = (TextView) findViewById(R.id.textView6);
-        back = (TextView) findViewById(R.id.backGameScreen);
+        tablelayout = findViewById(R.id.main_l);
+        b_counter = findViewById(R.id.textView4);
+        w_counter = findViewById(R.id.textView5);
+        turn = findViewById(R.id.textView6);
+        back = findViewById(R.id.backGameScreen);
         buildGameField();
     }
 

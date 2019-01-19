@@ -22,9 +22,9 @@ public class ActivityMenu extends AppCompatActivity {
             getWindow().setBackgroundDrawableResource(R.drawable.anothertruepicture);
         if (ActivityOptions.WALL3) getWindow().setBackgroundDrawableResource(R.drawable.withoutja);
 
-        ImageView start = (ImageView) findViewById(R.id.startFirstScreen);
-        ImageView options = (ImageView) findViewById(R.id.optionsFirstScreen);
-        ImageView about = (ImageView) findViewById(R.id.aboutFirstScreen);
+        ImageView start = findViewById(R.id.startFirstScreen);
+        ImageView options = findViewById(R.id.optionsFirstScreen);
+        ImageView about = findViewById(R.id.aboutFirstScreen);
 
         View.OnClickListener onClickListener = new View.OnClickListener() {
             @Override

@@ -24,11 +24,11 @@ public class ActivityOptions extends AppCompatActivity {
         if (WALL2) getWindow().setBackgroundDrawableResource(R.drawable.anothertruepicture);
         if (WALL3) getWindow().setBackgroundDrawableResource(R.drawable.withoutja);
 
-        ImageView bcg1 = (ImageView) findViewById(R.id.wallpaper1);
-        ImageView bcg2 = (ImageView) findViewById(R.id.wallpaper2);
-        ImageView bcg3 = (ImageView) findViewById(R.id.wallpaper3);
+        ImageView bcg1 = findViewById(R.id.wallpaper1);
+        ImageView bcg2 = findViewById(R.id.wallpaper2);
+        ImageView bcg3 = findViewById(R.id.wallpaper3);
 
-        TextView back = (TextView) findViewById(R.id.backOptionsScreen);
+        TextView back = findViewById(R.id.backOptionsScreen);
 
         View.OnClickListener listenToOptions = new View.OnClickListener() {
             @Override

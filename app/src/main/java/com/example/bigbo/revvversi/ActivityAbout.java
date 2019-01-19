@@ -20,7 +20,7 @@ public class ActivityAbout extends AppCompatActivity {
             getWindow().setBackgroundDrawableResource(R.drawable.anothertruepicture);
         if (ActivityOptions.WALL3) getWindow().setBackgroundDrawableResource(R.drawable.withoutja);
 
-        TextView back = (TextView) findViewById(R.id.backAboutScreen);
+        TextView back = findViewById(R.id.backAboutScreen);
 
         View.OnClickListener plsListenBack = new View.OnClickListener() {
             @Override
